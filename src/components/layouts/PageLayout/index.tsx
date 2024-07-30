@@ -11,7 +11,7 @@ export default function PageLayout(props) {
     const isPricing = title === 'Pricing';
 
     if(true){
-        return (<iframe src='https://example.com/'></iframe>);
+        return ( <BaseLayout page={page} site={site}><iframe src='https://example.com/'></iframe> </BaseLayout>);
     }
     
     return (
