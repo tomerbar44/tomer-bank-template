@@ -9,11 +9,11 @@ export default function PageLayout(props) {
     const BaseLayout = getBaseLayoutComponent(page.baseLayout, site.baseLayout);
     const { enableAnnotations = true } = site;
     const { title, sections = [] } = page;
-    const isPricing = title === 'Pricing';
+    const isDy = title === 'DY';
 
     console.log('title',title);
 
-    if(isPricing){
+    if(isDy){
         return ( <BlankBaseLayout page={page} site={site}><iframe src='https://www.sport5.co.il/' allow='fullscreen'></iframe> </BlankBaseLayout>);
     }
     
