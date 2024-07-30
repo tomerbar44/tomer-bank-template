@@ -2,6 +2,7 @@ import * as React from 'react';
 
 import { getBaseLayoutComponent } from '../../../utils/base-layout';
 import { getComponent } from '../../components-registry';
+import BlankBaseLayout from '../BlankBaseLayout';
 
 export default function PageLayout(props) {
     const { page, site } = props;
@@ -12,8 +13,8 @@ export default function PageLayout(props) {
 
     console.log('title',title);
 
-    if(true){
-        return ( <BaseLayout page={page} site={site}><iframe src='https://example.com/'></iframe> </BaseLayout>);
+    if(isPricing){
+        return ( <BlankBaseLayout page={page} site={site}><iframe src='https://example.com/'></iframe> </BlankBaseLayout>);
     }
     
     return (
