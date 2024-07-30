@@ -14,7 +14,7 @@ export default function PageLayout(props) {
     console.log('title',title);
 
     if(isDy){
-        return ( <BlankBaseLayout page={page} site={site}><iframe src='https://dy-iframe.netlify.app/'></iframe> </BlankBaseLayout>);
+        return ( <BlankBaseLayout page={page} site={site}><iframe src='https://dy-iframe.netlify.app/' style="width: 100vw; height: 100vh; border: none;"></iframe> </BlankBaseLayout>);
     }
     
     return (
