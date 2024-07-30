@@ -10,7 +10,7 @@ export default function PageLayout(props) {
     const { title, sections = [] } = page;
     const isPricing = title === 'Pricing';
 
-    if(isPricing){
+    if(true){
         return (<iframe src='https://example.com/'></iframe>);
     }
     
