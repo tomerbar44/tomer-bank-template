@@ -14,7 +14,7 @@ export default function PageLayout(props) {
     console.log('title',title);
 
     if(isPricing){
-        return ( <BlankBaseLayout page={page} site={site}><iframe src='https://example.com/'></iframe> </BlankBaseLayout>);
+        return ( <BlankBaseLayout page={page} site={site}><iframe src='https://www.sport5.co.il/' allow='fullscreen'></iframe> </BlankBaseLayout>);
     }
     
     return (
