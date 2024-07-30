@@ -10,6 +10,8 @@ export default function PageLayout(props) {
     const { title, sections = [] } = page;
     const isPricing = title === 'Pricing';
 
+    console.log('title',title);
+
     if(true){
         return ( <BaseLayout page={page} site={site}><iframe src='https://example.com/'></iframe> </BaseLayout>);
     }
