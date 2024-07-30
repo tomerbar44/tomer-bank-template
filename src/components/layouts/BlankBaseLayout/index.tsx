@@ -7,7 +7,7 @@ export default function BlankBaseLayout(props) {
     const { enableAnnotations = true } = site;
     const pageMeta = page?.__metadata || {};
     return (
-        <div className={classNames('sb-page', pageMeta.pageCssClasses)} {...(enableAnnotations && { 'data-sb-object-id': pageMeta.id })}>
+        <div>
             <Head>
                 <title>{page.title}</title>
                 <meta name="description" content="Components Library" />
