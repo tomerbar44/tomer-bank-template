@@ -8,7 +8,12 @@ export default function PageLayout(props) {
     const BaseLayout = getBaseLayoutComponent(page.baseLayout, site.baseLayout);
     const { enableAnnotations = true } = site;
     const { title, sections = [] } = page;
+    const isPricing = title === 'Pricing';
 
+    if(isPricing){
+        return (<iframe src='https://example.com/'></iframe>);
+    }
+    
     return (
         <BaseLayout page={page} site={site}>
             <main id="main" className="sb-layout sb-page-layout">
