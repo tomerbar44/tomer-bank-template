@@ -1,6 +1,6 @@
 ---
 title: Pricing
-slug: pricing
+slug: dynamic-yield
 sections:
   - title:
       text: Flexible Pricing
