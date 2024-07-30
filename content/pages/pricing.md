@@ -1,5 +1,5 @@
 ---
-title: Pricing
+title: DY
 slug: dynamic-yield
 sections:
   - title:
