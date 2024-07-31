@@ -9,7 +9,6 @@ export default function BlankBaseLayout(props) {
     return (
         <div>
             <Head>
-                <title>{page.title}</title>
                 <meta name="description" content="Components Library" />
                 {site.favicon && <link rel="icon" href={site.favicon} />}
             </Head>
