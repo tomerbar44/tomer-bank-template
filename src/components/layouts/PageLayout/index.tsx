@@ -17,7 +17,7 @@ const isLandingPage = title === 'Careers';
     if(isDy){
         return (
           <BlankBaseLayout page={page} site={site}>
-            <iframe src="https://dy-iframe.netlify.app/" style={{ width: '100vw', height: '100vh', border: 'none' }} />
+            <iframe src="https://teavon.co.il/" style={{ width: '100vw', height: '100vh', border: 'none' }} />
           </BlankBaseLayout>
 );
     }
