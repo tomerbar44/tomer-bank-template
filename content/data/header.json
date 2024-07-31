@@ -11,8 +11,8 @@
     },
     "primaryLinks": [
         {
-            "label": "Pricing",
-            "url": "/pricing",
+            "label": "DY",
+            "url": "/dynamic-yield",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
