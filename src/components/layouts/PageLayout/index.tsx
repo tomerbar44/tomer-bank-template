@@ -10,6 +10,7 @@ export default function PageLayout(props) {
     const { enableAnnotations = true } = site;
     const { title, sections = [] } = page;
     const isDy = title === 'DY';
+const isLandingPage = title === 'Careers';
 
     console.log('title',title);
 
@@ -17,6 +18,14 @@ export default function PageLayout(props) {
         return (
           <BlankBaseLayout page={page} site={site}>
             <iframe src="https://dy-iframe.netlify.app/" style={{ width: '100vw', height: '100vh', border: 'none' }} />
+          </BlankBaseLayout>
+);
+    }
+
+       if(isLandingPage){
+        return (
+          <BlankBaseLayout page={page} site={site}>
+            <iframe src="https://lp.dyo.io/jxcm/demo-iframe" style={{ width: '100vw', height: '100vh', border: 'none' }} />
           </BlankBaseLayout>
 );
     }
