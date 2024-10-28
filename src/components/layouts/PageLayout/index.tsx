@@ -17,7 +17,7 @@ const isLandingPage = title === 'Careers';
     if(isDy){
         return (
           <BlankBaseLayout page={page} site={site}>
-            <iframe src="https://teavon.co.il/" style={{ width: '100vw', height: '100vh', border: 'none' }} />
+            <iframe src="https://html-engine-dev1.dynamicyield.com/ap/M4XgHA7GCcYCwGYDcBjEBGADBBYBs6SALhtrnpkA/Untitled-landing-pages" style={{ width: '100vw', height: '100vh', border: 'none' }} />
           </BlankBaseLayout>
 );
     }
