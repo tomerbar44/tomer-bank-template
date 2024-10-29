@@ -17,7 +17,7 @@ const isLandingPage = title === 'Careers';
     if(isDy){
         return (
           <BlankBaseLayout page={page} site={site}>
-            <iframe src="https://html-engine-dev1.dynamicyield.com/ap/M4XgHA7GCcYCwGYDcBjEBGADBArOuAbEgC4bZ5w5A/Untitled-landing-pages?utm_source=123" style={{ width: '100vw', height: '100vh', border: 'none' }} />
+            <iframe src="https://html-engine-dev1.dynamicyield.com/ap/M4XgHA7GCcYCwGYDcBjEBGADBArOuAbEgC4bZ5w5A/Untitled-landing-pages" style={{ width: '100vw', height: '100vh', border: 'none' }} />
           </BlankBaseLayout>
 );
     }
